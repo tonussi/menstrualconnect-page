@@ -11,4 +11,4 @@ jobs:
         with:
           username: 'tonussi'
           reponame: 'menstrualconnect-page'
-          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          token: ${{ secrets.ACTIONS_TOKEN }} # Leave this line unchanged
