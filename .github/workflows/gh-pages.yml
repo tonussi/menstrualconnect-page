@@ -9,9 +9,10 @@ jobs:
       - name: Vue to Github Pages(with router)
         uses: undownding/VuePagesAction@1.0.3
         with:
-          # Your username
           username: 'tonussi'
-          # Your reponame
           reponame: 'menstrualconnect-page'
-          # Your Github token
           token: ${{ secrets.ACTIONS_TOKEN }}
+          gitemail: lptonussi@gmail.com
+          gitname: Lucas Tonussi
+          gitmsg: Deploy
+          cname: menstrual.com.br
