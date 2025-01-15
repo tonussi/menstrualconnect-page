@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" -- && cd dist && ln -s index.html 404.html",
+    "build:prod": "yarn install && run-p type-check \"build-only {@}\" -- && cd dist && ln -s index.html 404.html",
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
