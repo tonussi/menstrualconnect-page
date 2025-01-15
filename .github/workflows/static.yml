@@ -36,7 +36,7 @@ jobs:
       - name: Build vue
         uses: borales/actions-yarn@v4
         with:
-          cmd: build
+          cmd: build:prod
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
