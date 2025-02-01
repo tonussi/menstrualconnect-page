@@ -3,76 +3,53 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
+  <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+    <div
+      style="
+        padding: 10px;
+        width: max-content;
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-template-rows: 1fr;
+        gap: 10px;
+      "
+    >
+      <RouterLink to="/">Menstrual Connect</RouterLink>
+      <RouterLink to="/about">Sobre</RouterLink>
+    </div>
+  </div>
 
-  <section>
-    <RouterLink to="/privacy-politics">Privacy Politics</RouterLink>
-    <RouterLink to="/service-terms">Service Terms</RouterLink>
-  </section>
+  <div style="margin-top: 5em">
+    <main>
+      <RouterView />
+    </main>
+  </div>
+
+  <footer
+    style="
+      background-color: rgb(200 200 200 / 7%);
+      margin-top: 10em;
+      height: 100vh;
+      padding: 3em;
+      clear: both;
+      position: relative;
+    "
+  >
+    <div
+      style="
+        padding: 10px;
+        width: max-content;
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-template-rows: 1fr;
+        gap: 10px;
+      "
+    >
+      <a href="https://menstrual.com.br/privacy-policy">Política de Privacidade</a>
+      <a href="https://menstrual.com.br/terms-service">Termos de Serviço</a>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
 </style>
