@@ -15,6 +15,22 @@ export const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/AboutView.vue'),
   },
+  {
+    path: '/privacy-politics',
+    name: 'privacy-politics',
+    // route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/PrivacyPolitics.vue'),
+  },
+  {
+    path: '/service-terms',
+    name: 'service-terms',
+    // route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/ServiceTerms.vue'),
+  },
 ]
 
 const router = createRouter({
