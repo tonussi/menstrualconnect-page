@@ -1,14 +1,18 @@
 <script setup lang="ts">
+import CheckMark from '@/components/icons/CheckMark.vue'
 </script>
 
 <template>
-  <div>
+  <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
     <h1>In English:</h1>
     <p>
       <span>Last updated: {{ new Date().toLocaleString() }}</span>
     </p>
     <ol>
-      <li>All personal data must be processed in an ethical manner.</li>
+      <li class="flex items-center">
+        <check-mark></check-mark>
+        <p>All personal data must be processed in an ethical manner.</p>
+      </li>
       <li>
         Data should be collected for predetermined reasons only, and the data must be used for these
         reasons alone.

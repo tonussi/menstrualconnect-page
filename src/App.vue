@@ -46,7 +46,7 @@ import { RouterView } from 'vue-router'
       "
     >
       <a href="https://menstrual.com.br/privacy-policy">Política de Privacidade</a>
-      <a href="https://menstrual.com.br/terms-service">Termos de Serviço</a>
+      <a href="https://menstrual.com.br/terms-of-service">Termos de Serviço</a>
     </div>
   </footer>
 </template>

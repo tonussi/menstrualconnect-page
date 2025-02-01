@@ -1,6 +1,4 @@
 @import './base.css';
-@import 'tailwindcss/preflight';
-@tailwind utilities;
 
 #app {
   font-weight: normal;

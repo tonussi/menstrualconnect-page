@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
     <h1>In English:</h1>
     <p>
       <span><strong>Terms of Service</strong></span>
@@ -70,74 +70,77 @@
       <span>By using Menstrual Connect, you agree to these Terms of Service.</span>
     </p>
 
-    <h1>In Portuguese:</h1>
-    <p>
-      <span><strong>Termos de Serviço</strong></span>
-    </p>
-    <p>
-      <span>Última atualização: {{ new Date().toLocaleString() }}</span>
-    </p>
-    <p>
-      <span
-        >Bem-vindo(a) ao Menstrual Connect! Ao utilizar nosso aplicativo, você concorda com os
-        seguintes termos de serviço. Leia atentamente antes de prosseguir.</span
-      >
-    </p>
-    <h3><span>1. Uso do Aplicativo</span></h3>
-    <p>
-      <span
-        >O Menstrual Connect permite que você crie e gerencie eventos diretamente no seu calendário
-        do Google. Para isso, é necessário conceder permissões de acesso ao seu calendário.</span
-      >
-    </p>
-    <h3><span>2. Coleta e Uso de Dados</span></h3>
-    <p>
-      <span
-        >Nosso aplicativo acessa e armazena apenas as informações necessárias para criar, modificar
-        e gerenciar eventos no seu calendário. Não compartilhamos seus dados com terceiros sem o seu
-        consentimento.</span
-      >
-    </p>
-    <h3><span>3. Responsabilidades do Usuário</span></h3>
-    <ul>
-      <li>
-        <p><span>Garantir que possui permissão para conceder acesso ao calendário;</span></p>
-      </li>
-      <li>
-        <p>
-          <span
-            >Utilizar o aplicativo de forma ética e em conformidade com as leis aplicáveis;</span
-          >
-        </p>
-      </li>
-      <li>
-        <p><span>Não utilizar o serviço para atividades maliciosas ou fraudulentas.</span></p>
-      </li>
-    </ul>
-    <h3><span>4. Limitação de Responsabilidade</span></h3>
-    <p>
-      <span
-        >Não nos responsabilizamos por perdas de dados, falhas de sincronização ou qualquer dano
-        decorrente do uso do aplicativo. O usuário é responsável por verificar as informações
-        inseridas.</span
-      >
-    </p>
-    <h3><span>5. Modificações nos Termos</span></h3>
-    <p>
-      <span
-        >Podemos atualizar estes termos periodicamente. O uso contínuo do aplicativo após alterações
-        significa sua aceitação dos novos termos.</span
-      >
-    </p>
-    <h3><span>6. Contato</span></h3>
-    <p>
-      <span
-        >Se tiver dúvidas ou precisar de suporte, entre em contato pelo e-mail: [E-mail de
-        Suporte].</span
-      >
-    </p>
-    <p>
-      <span>Ao utilizar o Menstrual Connect, você concorda com estes Termos de Serviço.</span>
-    </p>
+    <div style="margin-top: 100px">
+      <h1>In Portuguese:</h1>
+      <p>
+        <span><strong>Termos de Serviço</strong></span>
+      </p>
+      <p>
+        <span>Última atualização: {{ new Date().toLocaleString() }}</span>
+      </p>
+      <p>
+        <span
+          >Bem-vindo(a) ao Menstrual Connect! Ao utilizar nosso aplicativo, você concorda com os
+          seguintes termos de serviço. Leia atentamente antes de prosseguir.</span
+        >
+      </p>
+      <h3><span>1. Uso do Aplicativo</span></h3>
+      <p>
+        <span
+          >O Menstrual Connect permite que você crie e gerencie eventos diretamente no seu
+          calendário do Google. Para isso, é necessário conceder permissões de acesso ao seu
+          calendário.</span
+        >
+      </p>
+      <h3><span>2. Coleta e Uso de Dados</span></h3>
+      <p>
+        <span
+          >Nosso aplicativo acessa e armazena apenas as informações necessárias para criar,
+          modificar e gerenciar eventos no seu calendário. Não compartilhamos seus dados com
+          terceiros sem o seu consentimento.</span
+        >
+      </p>
+      <h3><span>3. Responsabilidades do Usuário</span></h3>
+      <ul>
+        <li>
+          <p><span>Garantir que possui permissão para conceder acesso ao calendário;</span></p>
+        </li>
+        <li>
+          <p>
+            <span
+              >Utilizar o aplicativo de forma ética e em conformidade com as leis aplicáveis;</span
+            >
+          </p>
+        </li>
+        <li>
+          <p><span>Não utilizar o serviço para atividades maliciosas ou fraudulentas.</span></p>
+        </li>
+      </ul>
+      <h3><span>4. Limitação de Responsabilidade</span></h3>
+      <p>
+        <span
+          >Não nos responsabilizamos por perdas de dados, falhas de sincronização ou qualquer dano
+          decorrente do uso do aplicativo. O usuário é responsável por verificar as informações
+          inseridas.</span
+        >
+      </p>
+      <h3><span>5. Modificações nos Termos</span></h3>
+      <p>
+        <span
+          >Podemos atualizar estes termos periodicamente. O uso contínuo do aplicativo após
+          alterações significa sua aceitação dos novos termos.</span
+        >
+      </p>
+      <h3><span>6. Contato</span></h3>
+      <p>
+        <span
+          >Se tiver dúvidas ou precisar de suporte, entre em contato pelo e-mail: [E-mail de
+          Suporte].</span
+        >
+      </p>
+      <p>
+        <span>Ao utilizar o Menstrual Connect, você concorda com estes Termos de Serviço.</span>
+      </p>
+    </div>
   </div>
 </template>
