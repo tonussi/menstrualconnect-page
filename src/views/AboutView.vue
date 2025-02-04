@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div style="max-width: fit-content; margin-left: auto; margin-right: auto">

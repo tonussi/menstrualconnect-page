@@ -25,31 +25,22 @@ import { RouterView } from 'vue-router'
     </main>
   </div>
 
-  <footer
-    style="
-      background-color: rgb(200 200 200 / 7%);
-      margin-top: 10em;
-      height: 100vh;
-      padding: 3em;
-      clear: both;
-      position: relative;
-    "
-  >
-    <div
-      style="
-        padding: 10px;
-        width: max-content;
-        display: grid;
-        grid-template-columns: max-content max-content;
-        grid-template-rows: 1fr;
-        gap: 10px;
-      "
-    >
-      <a href="https://menstrual.com.br/privacy-policy">Política de Privacidade</a>
-      <a href="https://menstrual.com.br/terms-of-service">Termos de Serviço</a>
+  <footer style="position: absolute; bottom: 0; width: 100%; height: 2.5rem">
+    <div style="position: absolute; bottom: 0; width: 100%; height: 2.5rem">
+      <div
+        style="
+          padding: 10px;
+          display: grid;
+          grid-template-columns: max-content max-content;
+          grid-template-rows: 1fr;
+          gap: 10px;
+        "
+      >
+        <a href="https://menstrual.com.br/privacy-policy">Política de Privacidade</a>
+        <a href="https://menstrual.com.br/terms-of-service">Termos de Serviço</a>
+      </div>
     </div>
   </footer>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

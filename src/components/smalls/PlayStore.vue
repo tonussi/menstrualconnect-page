@@ -6,20 +6,28 @@ const props = defineProps({
 })
 
 const handleClick = (link: string) => {
-  window.open(link, "_blank");
+  window.open(link, '_blank')
 }
 </script>
 
 <template>
   <div class="download-store-button-grid" @click="handleClick(link)">
-
-    <img v-if="type == 'PlayStore'" referrerpolicy="no-referrer" class="play-button-pic"
-      src="@/assets/pictures/PlayStore.png" alt="" />
-    <img v-if="type == 'AppleStore'" referrerpolicy="no-referrer" class="play-button-pic"
-      src="@/assets/pictures/AppleStore.png" alt="" />
+    <img
+      v-if="type == 'PlayStore'"
+      referrerpolicy="no-referrer"
+      class="play-button-pic"
+      src="@/assets/pictures/PlayStore.png"
+      alt=""
+    />
+    <img
+      v-if="type == 'AppleStore'"
+      referrerpolicy="no-referrer"
+      class="play-button-pic"
+      src="@/assets/pictures/AppleStore.png"
+      alt=""
+    />
 
     <div class="get-on-store">{{ text }}</div>
-
   </div>
 </template>
 
