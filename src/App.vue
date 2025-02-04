@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+  <div style="min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto">
     <div
       style="
         padding: 10px;
@@ -17,16 +17,12 @@ import { RouterView } from 'vue-router'
       <RouterLink to="/">Menstrual Connect</RouterLink>
       <RouterLink to="/about">Sobre</RouterLink>
     </div>
-  </div>
 
-  <div style="margin-top: 5em">
     <main>
       <RouterView />
     </main>
-  </div>
 
-  <footer style="position: absolute; bottom: 0; width: 100%; height: 2.5rem">
-    <div style="position: absolute; bottom: 0; width: 100%; height: 2.5rem">
+    <footer style="height: 10em; background-color: aliceblue">
       <div
         style="
           padding: 10px;
@@ -39,8 +35,6 @@ import { RouterView } from 'vue-router'
         <a href="https://menstrual.com.br/privacy-policy">Política de Privacidade</a>
         <a href="https://menstrual.com.br/terms-of-service">Termos de Serviço</a>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </template>
-
-<style scoped></style>
