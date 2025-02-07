@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div style="min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto">
+  <div class="sticky-wrap">
     <div
       style="
         padding: 10px;
@@ -22,7 +22,7 @@ import { RouterView } from 'vue-router'
       <RouterView />
     </main>
 
-    <footer style="height: 10em; background-color: aliceblue">
+    <footer class="sticky-footer">
       <div
         style="
           padding: 10px;
@@ -38,3 +38,16 @@ import { RouterView } from 'vue-router'
     </footer>
   </div>
 </template>
+
+<style scoped>
+.sticky-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sticky-footer {
+  margin-top: 5em;
+  background-color: rgba(240, 240, 240, 0.5);
+}
+</style>
