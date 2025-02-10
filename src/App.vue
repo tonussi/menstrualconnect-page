@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="sticky-wrap">
+  <div class="sticky-wrap h-screen">
     <div
       style="
         padding: 10px;
@@ -43,7 +43,6 @@ import { RouterView } from 'vue-router'
 .sticky-wrap {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .sticky-footer {

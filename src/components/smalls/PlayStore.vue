@@ -15,14 +15,14 @@ const handleClick = (link: string) => {
     <img
       v-if="type == 'PlayStore'"
       referrerpolicy="no-referrer"
-      class="play-button-pic"
+      class="store-btn-pic"
       src="@/assets/pictures/PlayStore.png"
       alt=""
     />
     <img
       v-if="type == 'AppleStore'"
       referrerpolicy="no-referrer"
-      class="play-button-pic"
+      class="store-btn-pic"
       src="@/assets/pictures/AppleStore.png"
       alt=""
     />
@@ -45,7 +45,7 @@ const handleClick = (link: string) => {
   padding-left: 20px;
 }
 
-.play-button-pic {
-  max-width: 100px;
+.store-btn-pic {
+  width: 50px;
 }
 </style>
