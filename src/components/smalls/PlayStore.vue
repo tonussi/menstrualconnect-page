@@ -16,14 +16,14 @@ const handleClick = (link: string) => {
       v-if="type == 'PlayStore'"
       referrerpolicy="no-referrer"
       class="store-btn-pic"
-      src="@/assets/pictures/PlayStore.png"
+      src="@/assets/pictures/PlayStore.svg"
       alt=""
     />
     <img
       v-if="type == 'AppleStore'"
       referrerpolicy="no-referrer"
       class="store-btn-pic"
-      src="@/assets/pictures/AppleStore.png"
+      src="@/assets/pictures/AppleStore.svg"
       alt=""
     />
 
@@ -43,6 +43,13 @@ const handleClick = (link: string) => {
 
 .get-on-store {
   padding-left: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.download-store-button-grid:hover {
+  background-color: bisque;
+  cursor: pointer;
 }
 
 .store-btn-pic {
