@@ -11,10 +11,10 @@ import CheckMark from '@/components/icons/CheckMark.vue'
     <p>
       <span>Última atualização: {{ new Date().toLocaleString() }}</span>
     </p>
-    <p class="font-bold pt-5">
+    <p class="font-extralight pt-5">
       <span
-        >Bem-vindo(a) ao Menstrual Connect! Ao utilizar nosso aplicativo, você concorda com os
-        seguintes termos de serviço. Leia atentamente antes de prosseguir.</span
+        >Bem-vindo(a) ao Menstrual Connect! Ao utilizar nosso aplicativo (Android & iOS), você
+        concorda com os seguintes termos de serviço. Leia atentamente antes de prosseguir.</span
       >
     </p>
     <div class="text-xl font-bold py-5"><span>Uso do Aplicativo</span></div>
@@ -69,10 +69,10 @@ import CheckMark from '@/components/icons/CheckMark.vue'
         ou qualquer dano decorrente do uso do aplicativo. O usuário é responsável por verificar as
         informações inseridas. O aplicativo apenas cria eventos novos no seu calendário, sendo eles
         eventos do aplicativo Menstrual Connect. O aplicativo não remove eventos que não sejam do
-        Menstrual Connect. Nossa aplicação se orienta pelo nome do evento, e sendo ele
-        <b>Menstrual Connect</b> no título do evento, esse evento poderá ser removido caso o usuário
-        crie um novo ciclo menstrual. Pois um novo ciclo irá mudar os eventos caso eles forem
-        exportados para o calendário Google.</span
+        Menstrual Connect. Nossa aplicação se orienta pelo nome do evento, e sendo ele Menstrual
+        Connect no título do evento, esse evento poderá ser removido caso o usuário crie um novo
+        ciclo menstrual. Pois um novo ciclo irá mudar os eventos caso eles forem exportados para o
+        calendário Google.</span
       >
     </p>
     <div class="text-xl font-bold py-5"><span>Modificações nos Termos</span></div>
@@ -107,8 +107,8 @@ import CheckMark from '@/components/icons/CheckMark.vue'
     </p>
     <p class="font-extralight pt-5">
       <span
-        >Welcome to Menstrual Connect! By using our app, you agree to the following terms of
-        service. Please read them carefully before proceeding.</span
+        >Welcome to Menstrual Connect! By using our app (Android & iOS), you agree to the following
+        terms of service. Please read them carefully before proceeding.</span
       >
     </p>
     <div class="text-xl font-bold py-5"><span>Using the App</span></div>
