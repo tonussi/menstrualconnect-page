@@ -35,7 +35,7 @@ import CheckMark from '@/components/icons/CheckMark.vue'
         <check-mark></check-mark>
         <p class="pl-3">
           A empresa que coleta dados é responsável por monitorar sua própria adesão à regulamentação
-          do GDPR por meio da nomeação de um Diretor de Proteção de Dados, se aplicável.
+          do LGPD por meio da nomeação de um Diretor de Proteção de Dados, se aplicável.
         </p>
       </li>
       <li class="flex items-center">
@@ -55,7 +55,7 @@ import CheckMark from '@/components/icons/CheckMark.vue'
       <li class="flex items-center">
         <check-mark></check-mark>
         <p class="pl-3">
-          Os usuários devem ser informados sobre seus 8 direitos sob o GDPR, incluindo o direito de
+          Os usuários devem ser informados sobre seus direitos sob a LGPD, incluindo o direito de
           acessar, atualizar ou solicitar a remoção de seus dados pessoais.
         </p>
       </li>
@@ -70,7 +70,7 @@ import CheckMark from '@/components/icons/CheckMark.vue'
         <check-mark></check-mark>
         <p class="pl-3">
           Os usuários devem ser informados se seus dados serão compartilhados com terceiros ou
-          organizações afiliadas, ou se serão transferidos para fora da BRAZIL.
+          organizações afiliadas, ou se serão transferidos para fora da BRASIL.
         </p>
       </li>
       <li class="flex items-center">
@@ -112,7 +112,7 @@ import CheckMark from '@/components/icons/CheckMark.vue'
       <li class="flex items-center">
         <check-mark></check-mark>
         <p class="pl-3">
-          The business collecting data is responsible for monitoring its own adherence to GDPR
+          The business collecting data is responsible for monitoring its own adherence to LGPD
           regulation through the appointment of a Data Protection Officer, if applicable.
         </p>
       </li>
@@ -133,8 +133,8 @@ import CheckMark from '@/components/icons/CheckMark.vue'
       <li class="flex items-center">
         <check-mark></check-mark>
         <p class="pl-3">
-          Users must be advised of their 8 rights under the GDPR including the right to access,
-          update or request removal of their personal data.
+          Users must be advised of their rights under the LGPD including the right to access, update
+          or request removal of their personal data.
         </p>
       </li>
       <li class="flex items-center">
