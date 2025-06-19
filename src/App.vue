@@ -47,6 +47,9 @@ import { RouterView } from 'vue-router'
 
 .sticky-footer {
   margin-top: 5em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: rgba(240, 240, 240, 0.5);
 }
 </style>
