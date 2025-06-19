@@ -17,7 +17,7 @@ import PlayStore from '@/components/smalls/PlayStore.vue'
       <PlayStore
         type="PlayStore"
         text="Baixar aplicativo Android"
-        link="https://drive.google.com/file/d/1RBfiRIUVoT8FdtKvWZ5NPmyiajCtSPtP/view?usp=drive_link"
+        link="https://drive.google.com/file/d/1rOlkL4tYoOmQXXutugaaOzooL2g8IvuF/view?usp=sharing"
       ></PlayStore>
     </div>
 
