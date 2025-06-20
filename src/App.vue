@@ -18,7 +18,7 @@ import { RouterView } from 'vue-router'
       <RouterLink to="/about">Sobre</RouterLink>
     </div>
 
-    <main>
+    <main style="padding-bottom: 100px">
       <RouterView />
     </main>
 
